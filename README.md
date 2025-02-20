@@ -1,3 +1,14 @@
+# Overview
+
+I implemented a Hidden Markov Model with both a forward and a Viterbi algorithm. 
+
+* The Forward algorithm takes in the observations and calculates the probability of the observed sequence of events. 
+
+* The Viterbi algorithm takes in the observations and returns a np.array for the estimated hidden states for each observation. 
+
+* GitHub Actions test the installation and the accuracy of the methods.
+
+
 # HW6-HMM
 
 In this assignment, you'll implement the Forward and Viterbi Algorithms (dynamic programming). 
@@ -48,18 +59,18 @@ Finally, please update your README with a brief description of your methods.
 
 ## Task List
 
-[TODO] Complete the HiddenMarkovModel Class methods  <br>
-  [ ] complete the `forward` function in the HiddenMarkovModelClass <br>
-  [ ] complete the `viterbi` function in the HiddenMarkovModelClass <br>
+[x] Complete the HiddenMarkovModel Class methods  <br>
+  [x] complete the `forward` function in the HiddenMarkovModelClass <br>
+  [x] complete the `viterbi` function in the HiddenMarkovModelClass <br>
 
-[TODO] Unit Testing  <br>
-  [ ] Ensure functionality on mini and full weather dataset <br>
-  [ ] Account for edge cases 
+[x] Unit Testing  <br>
+  [x] Ensure functionality on mini and full weather dataset <br>
+  [x] Account for edge cases 
 
-[TODO] Packaging <br>
-  [ ] Update README with description of your methods <br>
-  [ ] pip installable module (optional)<br>
-  [ ] github actions (install + pytest) (optional)
+[x] Packaging <br>
+  [x] Update README with description of your methods <br>
+  [x] pip installable module (optional)<br>
+  [x] github actions (install + pytest) (optional)
 
 
 ## Completing the Assignment 
